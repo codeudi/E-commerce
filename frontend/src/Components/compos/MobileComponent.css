@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    text-decoration: none;
+  }
+  .outerbox{
+   
+    margin-top: 50px;
+    height: 850px;
+    width:280px;
+    display:flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .lower{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    padding: 7px;
+    color: black;
+  }
+  .sponsor{
+    color: black;
+    font-size: x-small;
+    margin-left: 7px;
+  }
+  .info{
+    display: flex;
+    gap:3px;
+    align-items: center;
+  }
+  .image{
+    width:75%;
+    height:90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .image img{
+    width:100%;
+    height:50%;
+  }
+  .heading{
+    font-size: medium;
+  }
+  .cols{
+    display: flex;
+    gap:10px;
+  }
+  .pop{
+    transform: rotate(90deg);
+    margin-top: 7px;
+    margin-left: -5px;
+  }
+  .num{
+    margin-top: 0px;
+    margin-left: -7px;
+    color: #07768e;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .col2{
+    display:flex;
+    gap:5px;
+  }
+  .rupees{
+    font-size: small;
+    margin-top: 0.5vw;
+  }
+  .pricep{
+    font-size: x-large;
+    font-weight: bold;
+  }
+  .mrp{
+    font-size: small;
+    margin-top: 0.8vw;
+    font-weight:400;
+    color: grey;
+  }
+  .off{
+    color:black;
+  }
+  .col2{
+    margin-top: 0px;
+  }
+  .col3{
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+  }
+  .row1{
+    display:flex;
+    font-size: small;
+    align-items:center;
+    gap:5px;
+  }
+  .date{
+    font-weight: bold;
+  }
